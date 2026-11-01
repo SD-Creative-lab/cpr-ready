@@ -1,16 +1,42 @@
-# React + Vite
+# CPR Ready
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A mobile-first UX portfolio prototype exploring a guided emergency-response interface.
 
-Currently, two official plugins are available:
+**Demo only — not for emergency use. No real emergency calls are placed.**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live demo
 
-## React Compiler
+[Try the interactive prototype](https://cpr-ready-interactive-demo.redsigma20.chatgpt.site/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About the project
 
-## Expanding the Oxlint configuration
+CPR Ready explores how clear instructions, prominent actions, illustrations, and voice guidance can support navigation through a simulated emergency scenario.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The project began as a Figma design and was developed into an interactive browser prototype using Cursor.
+
+## Prototype features
+
+- Guided flow through Check, Call, CPR, AED, and Continue stages
+- Simulated 911 call interaction
+- Voice guidance control
+- Responsive layout with Home, Learn, Emergency, and AED navigation
+- Planned-feature previews for learning, AED locations, nearby hospitals, and accessibility
+
+## Technology
+
+React, JavaScript, CSS, and Vite. Uses local state with no backend, login, or API keys.
+
+## Run locally
+
+Install Node.js, then run these commands in the project folder:
+
+    npm install
+    npm run dev
+
+To create a production build:
+
+    npm run build
+
+## Scope
+
+This is a portfolio demonstration, not a clinically validated medical tool. Planned-feature screens are previews rather than working location or learning services.
